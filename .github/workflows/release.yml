@@ -75,7 +75,7 @@ jobs:
         run: |
           mkdir -p ./temp/screen_checker
           mkdir -p ./temp/screen_checker/web/
-          cp ./{README.md,fxmanifest.lua} ./temp/screen_checker
+          cp ./fxmanifest.lua ./temp/screen_checker
           cp -r ./src ./temp/screen_checker
           cp -r ./settings ./temp/screen_checker
           cp -r ./web/build ./temp/screen_checker/web/
