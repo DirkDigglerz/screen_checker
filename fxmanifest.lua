@@ -4,7 +4,7 @@ lua54 'yes'
 games { 'rdr3', 'gta5' } 
 author 'DirkScripts' 
 description 'Stops certain screen resolutions from being used' 
-version      '1.0.1' 
+version      '1.0.2' 
 
 client_script { 
   'settings/config.lua',
